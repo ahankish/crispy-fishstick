@@ -1,0 +1,217 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 960px;
+  line-height: 150%;
+}
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+
+html {
+  font: small-caps bold 24px cursive;
+  background: url(../pexels-astronomy-1867616_1920.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1, h3, h4, h5, p {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 22px;
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+  font-size: 36px;
+}
+
+/* Fixing Nested lists */
+ul ul, ol ol, ul ol, ol ul {
+  padding-left: 20px; /* Forces nested lists to indent */
+}
+
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
+
+.btn {
+  border-radius: 5px;
+  display: inline-block;
+  margin: 0;
+  background-color: rgb(250, 153, 250);
+  font-size: 22px;
+}
+
+.btn-alt {
+  border: 1px solid #dfe2e5;
+  padding: 10px 30px;
+  box-shadow: 10px 5px 5px rgb(153, 34, 153);
+  margin: 10px;
+}
+
+.btn-foot {
+  border: 1px solid #dfe2e5;
+  padding: 5px 15px;
+  box-shadow: 10px 5px 5px rgb(153, 34, 153);
+  font-size: 15px;
+}
+
+/*
+  ========================================
+  Home
+  ========================================
+*/
+
+img {
+  background: #eaeaed;
+  border: 1px solid #9799a7;
+  width: 135px;
+  height: 150px;
+  padding: 4px; 
+  margin: 10px;
+}
+
+iframe {
+  margin: 10px;
+  width: 560px;
+  height: 315px;
+}
+
+img.profile {
+  float: left;
+  padding: 4px;
+  justify-self: flex-start;
+  margin-right: 190px;  
+}
+
+.div-flex {
+  display: flex;
+  margin: 0 auto;
+}
+
+.side-img {
+  width: 300px;
+  height: 315px;
+}
+
+.hero {
+  padding: 22px 80px 66px 80px;
+}
+
+.heading {
+  background-color: rgb(143, 59, 143);
+  margin: 0 auto;
+  padding: 30px 80px 30px 80px;
+  width: 960px;
+}
+
+.profile-pic {
+  background-color: rgb(143, 59, 143);
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 30px 80px 30px 80px;
+  width: 960px;
+  display:flex;
+}
+
+.section-filler {
+  flex-direction: column;
+  background-color: rgb(251, 237, 255);
+  margin: 0 auto;
+  padding: 30px 80px 30px 80px;
+  width: 960px;
+  border-radius: 5px;
+}
+
+h2.subsection {
+	font-size: 28px; 
+	color: rgb(0, 0, 0);
+	padding: 20px;
+}
+
+ul.project-lists {
+	color: rgb(0, 0, 0); 
+	list-style-type:disc;
+	width: 880px
+}
+
+.big-heading {
+	font-size: 36px;
+	float: center;
+}
+  
