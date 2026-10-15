@@ -70,6 +70,13 @@ table {
   line-height: 150%;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
 /*
   ========================================
   Typography
@@ -157,6 +164,13 @@ img.profile {
   padding: 4px;
   justify-self: flex-start;
   margin-right: 190px;  
+}
+
+img.logo {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  height: auto;
 }
 
 .div-flex {
